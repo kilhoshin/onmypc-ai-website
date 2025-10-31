@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\")",
+      "Bash(npx create-next-app@latest onmypc-ai-website --ts --tailwind --app --no-src-dir --import-alias \"@/*\" --eslint)",
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "Bash(npm audit fix:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(taskkill:*)",
+      "Bash(nul)",
+      "Bash(timeout /t 2 /nobreak)",
+      "Bash(dir)",
+      "Bash(dir:*)",
+      "Bash(npx create-next-app:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
