@@ -15,7 +15,11 @@
       "Bash(dir:*)",
       "Bash(npx create-next-app:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: OnMyPC.ai website\n\n- Next.js project setup with TypeScript and Tailwind CSS\n- Hero section with key value propositions\n- Features showcase with 6 main capabilities\n- Pricing page with 3 tier plans\n- Footer with navigation and social links\n- Responsive design for mobile and desktop\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

@@ -2,8 +2,15 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OnMyPC.ai - Your Personal AI Assistant on Your PC",
-  description: "Run powerful AI models directly on your PC. Privacy-first, offline-capable AI assistant.",
+  title: "OnMyPC AI - Local AI Tools for Everyone",
+  description: "All your language tools, right inside your PC. No cloud. No delay. Just your AI. Download free offline AI-powered grammar correction, translation, summarization, and email rewriting tools.",
+  keywords: ["AI", "offline", "local", "privacy", "grammar", "translation", "summarization", "email", "desktop app"],
+  authors: [{ name: "OnMyPC AI" }],
+  openGraph: {
+    title: "OnMyPC AI - Local AI Tools for Everyone",
+    description: "All your language tools, right inside your PC. No cloud. No delay. Just your AI.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -13,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="antialiased">
         {children}
       </body>
     </html>
