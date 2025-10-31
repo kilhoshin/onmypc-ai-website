@@ -44,13 +44,13 @@ const benefits = [
   },
   {
     icon: "🎯",
-    title: "Easy Setup",
-    description: "Portable installation, no complex configuration. Just download, extract, and run.",
+    title: "Portable & No Installation",
+    description: "100% portable - no installation needed. Just download, extract, and run from any folder.",
   },
   {
     icon: "🖥️",
     title: "Powered by Ollama",
-    description: "Built on open-source Ollama with Gemma 2B model. Automatic installation included.",
+    description: "Built on open-source Ollama with Gemma3 4B model. Automatic installation included, fully portable.",
   },
 ];
 

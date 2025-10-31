@@ -47,6 +47,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href="mailto:kilhoshin1978@gmail.com"
+                  className="text-gray-400 hover:text-primary transition-colors text-sm"
+                >
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://buymeacoffee.com/giroshin"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -62,9 +70,14 @@ export default function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-500 text-sm">
-              © {currentYear} OnMyPC AI. All rights reserved.
-            </p>
+            <div className="text-center md:text-left">
+              <p className="text-gray-500 text-sm">
+                © {currentYear} OnMyPC AI. All rights reserved.
+              </p>
+              <p className="text-gray-600 text-xs mt-1">
+                Contact: <a href="mailto:kilhoshin1978@gmail.com" className="hover:text-primary transition-colors">kilhoshin1978@gmail.com</a>
+              </p>
+            </div>
             <div className="flex items-center gap-6">
               <p className="text-gray-500 text-sm">
                 Made with <span className="text-red-500">♥</span> for privacy-conscious users

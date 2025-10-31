@@ -22,9 +22,9 @@ export default function Hero() {
         </p>
 
         <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
-          A fully offline desktop application that provides AI-powered language tools including
-          grammar correction, translation, summarization, and email rewriting - all running
-          locally on your computer with no internet connection required.
+          A fully offline, portable desktop application powered by <span className="text-primary font-semibold">Ollama</span> and <span className="text-primary font-semibold">Gemma3 4B</span> model.
+          Provides AI-powered language tools including grammar correction, translation, summarization, and email rewriting -
+          all running locally on your computer with no installation or internet connection required.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

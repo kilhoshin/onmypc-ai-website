@@ -2,10 +2,10 @@ const products = [
   {
     name: "OnMyPC AI",
     tagline: "Your Personal Language Assistant",
-    description: "Grammar correction, translation, summarization, and email rewriting - all in one powerful offline application.",
+    description: "Powered by Ollama and Gemma3 4B model. Grammar correction, translation, summarization, and email rewriting - all in one powerful offline, portable application. No installation needed!",
     version: "v1.0.0",
     size: "111 MB",
-    downloadUrl: "https://github.com/YOUR_USERNAME/onmypc-ai/releases/download/v1.0.0/OnMyPC-AI-win32-x64.zip",
+    downloadUrl: "https://github.com/kilhoshin/onmypc-ai-website/releases/download/v1.0.0/OnMyPC-AI-win32-x64.zip",
     features: [
       "Grammar Correction",
       "Multi-language Translation",
@@ -107,9 +107,14 @@ export default function Products() {
               )}
 
               {product.available && (
-                <p className="text-xs text-gray-500 text-center mt-3">
-                  Windows x64 • Portable • No Installation Required
-                </p>
+                <div className="mt-3 text-center">
+                  <p className="text-xs text-gray-500">
+                    Windows x64 • Portable • No Installation Required
+                  </p>
+                  <p className="text-xs text-gray-500 mt-1">
+                    Powered by Ollama & Gemma3 4B
+                  </p>
+                </div>
               )}
             </div>
           ))}

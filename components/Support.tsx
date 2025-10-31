@@ -91,12 +91,29 @@ export default function Support() {
                 <div>
                   <h4 className="font-semibold text-white mb-1">First-time setup (automatic)</h4>
                   <p className="text-gray-400 text-sm">
-                    If Ollama or Gemma 2B model is not installed, the app will download and install
-                    them automatically
+                    If Ollama or Gemma3 4B model is not installed, the app will download and install
+                    them automatically. No installation needed - 100% portable!
                   </p>
                 </div>
               </li>
             </ol>
+          </div>
+        </div>
+
+        {/* Contact */}
+        <div className="mt-16 text-center">
+          <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-8">
+            <h3 className="text-2xl font-bold mb-4 text-white">Need Help?</h3>
+            <p className="text-gray-400 mb-4">
+              Have questions or feedback? We'd love to hear from you!
+            </p>
+            <a
+              href="mailto:kilhoshin1978@gmail.com"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors text-white font-medium"
+            >
+              <span>📧</span>
+              kilhoshin1978@gmail.com
+            </a>
           </div>
         </div>
       </div>
