@@ -105,7 +105,7 @@ export default function Support() {
           <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-8">
             <h3 className="text-2xl font-bold mb-4 text-white">Need Help?</h3>
             <p className="text-gray-400 mb-4">
-              Have questions or feedback? We'd love to hear from you!
+              Have questions or feedback? We&apos;d love to hear from you!
             </p>
             <a
               href="mailto:kilhoshin1978@gmail.com"
