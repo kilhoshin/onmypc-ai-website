@@ -12,19 +12,18 @@ export default function Hero() {
 
       <div className="relative z-10 container mx-auto px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-          <span className="gradient-text">All your language tools,</span>
+          <span className="gradient-text">Local-first AI suite</span>
           <br />
-          <span className="text-white">right inside your PC</span>
+          <span className="text-white">for privacy-critical teams</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-          No cloud. No delay. Just your AI.
+          No cloud. No tracking. Just powerful AI running on your own machines.
         </p>
 
         <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
-          A fully offline, portable desktop application powered by <span className="text-primary font-semibold">Ollama</span> and <span className="text-primary font-semibold">Gemma3 4B</span> model.
-          Provides AI-powered language tools including grammar correction, translation, summarization, and email rewriting -
-          all running locally on your computer with no installation or internet connection required.
+          OnMyPC builds desktop AI tools that are 100% offline, portable, and enterprise-friendly.
+          Every workflow stays on-device, giving you instant responses with full control over your data.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -46,15 +45,15 @@ export default function Hero() {
         <div className="mt-16 flex flex-wrap gap-8 justify-center text-center">
           <div className="flex-1 min-w-[200px]">
             <div className="text-3xl font-bold text-primary">100%</div>
-            <div className="text-gray-400 mt-1">Private & Offline</div>
+            <div className="text-gray-400 mt-1">Offline & Self-Contained</div>
           </div>
           <div className="flex-1 min-w-[200px]">
-            <div className="text-3xl font-bold text-secondary">Free</div>
-            <div className="text-gray-400 mt-1">No Subscriptions</div>
+            <div className="text-3xl font-bold text-secondary">0</div>
+            <div className="text-gray-400 mt-1">Cloud Dependencies</div>
           </div>
           <div className="flex-1 min-w-[200px]">
             <div className="text-3xl font-bold text-primary">4</div>
-            <div className="text-gray-400 mt-1">Powerful Features</div>
+            <div className="text-gray-400 mt-1">Specialized Products</div>
           </div>
         </div>
       </div>

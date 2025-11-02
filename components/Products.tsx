@@ -13,11 +13,46 @@ const products = [
       "Email Rewriting",
     ],
     available: true,
+    platformNote: "Windows x64 • Portable • No Installation Required",
+    techNote: "Powered by Ollama & Gemma3 4B",
+  },
+  {
+    name: "OnMyPC Legal AI",
+    tagline: "Confidential Legal Discovery Companion",
+    description: "Fully local legal search and discovery delivered as a portable Electron desktop app.",
+    version: "v1.0.0",
+    size: "547 MB",
+    downloadUrl: "https://github.com/kilhoshin/onmypc-legal-ai/releases/download/v1.0.0/OnMyPC-Legal-AI-win.zip",
+    features: [
+      "Offline-first analysis",
+      "Document-aware ingestion",
+      "Hybrid relevance engine",
+      "Operational guardrails",
+      "One-click distribution",
+    ],
+    available: true,
+    platformNote: "Windows x64 • Portable • Electron Desktop App",
+    techNote: "Hybrid BM25 + Vector Retrieval • Bundled Python Runtime",
+  },
+  {
+    name: "OnMyPC HIPAA-Safe Translator",
+    tagline: "Healthcare Communication Without the Cloud",
+    description: "Purpose-built to help clinical teams translate notes, consent forms, and patient communication while staying compliant with HIPAA guidelines.",
+    version: "Coming Soon",
+    size: "TBA",
+    downloadUrl: "#",
+    features: [
+      "Medical Terminology Aware",
+      "Audit-Friendly Logs",
+      "Role-Based Access",
+      "Air-gapped Deployment",
+    ],
+    available: false,
   },
   {
     name: "OnMyPC Coder AI",
     tagline: "AI-Powered Coding Assistant",
-    description: "Code generation, debugging, and refactoring tools for developers. Coming soon to help you code faster and smarter.",
+    description: "Code generation, debugging, and refactoring tools for developers. Coming soon to help you build faster without exposing source code.",
     version: "Coming Soon",
     size: "TBA",
     downloadUrl: "#",
@@ -107,13 +142,17 @@ export default function Products() {
               )}
 
               {product.available && (
-                <div className="mt-3 text-center">
-                  <p className="text-xs text-gray-500">
-                    Windows x64 • Portable • No Installation Required
-                  </p>
-                  <p className="text-xs text-gray-500 mt-1">
-                    Powered by Ollama & Gemma3 4B
-                  </p>
+                <div className="mt-3 text-center space-y-1">
+                  {product.platformNote && (
+                    <p className="text-xs text-gray-500">
+                      {product.platformNote}
+                    </p>
+                  )}
+                  {product.techNote && (
+                    <p className="text-xs text-gray-500">
+                      {product.techNote}
+                    </p>
+                  )}
                 </div>
               )}
             </div>
